@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  # React application service
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"  # Map port 3000 on host to port 3000 in the container
+    volumes:
+      - .:/app  # Mount the application directory to the container
