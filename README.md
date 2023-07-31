@@ -13,7 +13,8 @@ The app is split into two:
 Each of them are dockerized separately
 
 ### Starting the frontend
- All configurations have been made in the Docker and dcker-cmpose.yml files
+
+All configurations have been made in the Docker and dcker-cmpose.yml files
  To start the React app in a container:
 - cd into the frontend directory and run the command: `docker-compose up` to start the react app in a docker container
 - cd into the backend directory and run the command: `docker-compose up` to start the laravel app in a docker container
